@@ -1,0 +1,10 @@
+@if (TempData["Success"]  != null)
+{
+    <h2 class="alert alert-success"  style="color: #ff369e">@TempData["Success"]</h2>
+}
+
+@if (TempData["Error"]  != null)
+{
+    <h2 class="alert alert-danger" style="color: #ff369e">@TempData["Error"]</h2>
+}
+

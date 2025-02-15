@@ -1,0 +1,38 @@
+@model Category
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Category delete</title>
+</head>
+<body>
+<div>
+    <form method="post">
+        <input asp-for="Id" hidden />
+        <div class="border p-3 mt-4">
+            <div class="row pt-2">
+                <h2 class="text-primary">Delete category</h2>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="Name" class="p-0"></label>
+                <input asp-for="Name" disabled class="form-control" placeholder="@Model.Name">
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="DisplayOrder"></label>
+                <input asp-for="DisplayOrder" disabled class="form-control" placeholder="@Model.DisplayOrder">
+            </div>
+            <div class="row">
+                <div class="col-6 col-sm-3 col-md-4 col-lg-6">
+                    <button class="btn btn-primary form-control text-light" type="submit">Delete</button>
+                </div>
+                <div class="col-6  col-sm-3 col-md-4 col-lg-6">
+                    <a asp-controller="Category" asp-action="Index" class="btn btn-outline-secondary form-control"
+                       style="--bs-danger-text-emphasis: #1f9bcf">back to list</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+
