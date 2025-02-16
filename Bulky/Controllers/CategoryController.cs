@@ -1,4 +1,5 @@
-using Bulky.Data;
+using Bulky.DataAccess.Data;
+using Bulky.DataAccess.Migrations;
 using Bulky.Models;
 using Microsoft.AspNetCore.Mvc;
 

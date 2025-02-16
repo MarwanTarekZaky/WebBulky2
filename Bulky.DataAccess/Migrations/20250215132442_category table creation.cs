@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
-
+using Bulky.DataAccess.Data;
+using Microsoft.EntityFrameworkCore;
+using Bulky.Models;
 #nullable disable
 
-namespace Bulky.Migrations
+namespace Bulky.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class categorytablecreation : Migration

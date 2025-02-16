@@ -1,4 +1,5 @@
-@model Category
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Bulky.Models.Category
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,35 +7,43 @@
     <title>Category add</title>
 </head>
 <body>
-<div>
-    <form method="post">
-        <div class="border p-3 mt-4">
-            <div class="row pt-2">
-                <h2 class="text-primary">Crate category</h2>
-            </div>
-            <div asp-validation-summary="All"></div>
-            <div class="mb-3 row">
-                <label asp-for="Name"></label>
-                <input asp-for="Name" class="form-control blue" type="text">
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="mb-3 row">
-                <label asp-for="DisplayOrder"></label>
-                <input asp-for="DisplayOrder" class="form-control blue" type="text">
-                <span asp-validation-for="DisplayOrder" class="text-danger"></span>
-            </div>
-            <div class="row">
-                <div class="col-6 col-sm-3 col-md-4 col-lg-6">
-                    <button class="btn btn-primary form-control text-light" type="submit">Create</button>
-                </div>
-                <div class="col-6  col-sm-3 col-md-4 col-lg-6">
-                    <a asp-controller="Category" asp-action="Index" class="btn btn-outline-secondary form-control" 
-                       style="--bs-danger-text-emphasis: #1f9bcf" >back to  list</a>
-                </div>
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center ">
+                <h2 class="text-pink py-2">Crate category</h2>
             </div>
         </div>
-    </form>
+    </div>
+    <div class="card-body py-4 ">
+        <form method="post" class="row justify-content-center">
+            <div class="border p-3 ">
+                <div asp-validation-summary="All"></div>
+                <div class="mb-3 row">
+                    <label asp-for="Name"></label>
+                    <input asp-for="Name" class="form-control blue" type="text">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3 row">
+                    <label asp-for="DisplayOrder"></label>
+                    <input asp-for="DisplayOrder" class="form-control blue" type="text">
+                    <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-sm-3 col-md-4 col-lg-6">
+                        <button class="btn btn-primary form-control text-light" type="submit">Create</button>
+                    </div>
+                    <div class="col-6  col-sm-3 col-md-4 col-lg-6">
+                        <a asp-controller="Category" asp-action="Index" class="btn btn-outline-secondary form-control"
+                           style="--bs-danger-text-emphasis: #1f9bcf">back to list</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
+
+
 </body>
 </html>
 

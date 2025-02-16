@@ -218,4 +218,10 @@
 /Users/marwantarek/development/C# projects trying/WebBulky/Bulky/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/Bulky.csproj.AssemblyReference.cache
 /Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/Bulky.csproj.Up2Date
-/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/ny8vi1iyl7-xcntcb1nvg.gz
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/ny8vi1iyl7-3oyhbuaelf.gz
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/bin/Debug/net9.0/Bulky.DataAccess.dll
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/bin/Debug/net9.0/Bulky.Models.dll
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/bin/Debug/net9.0/Bulky.Utility.dll
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/bin/Debug/net9.0/Bulky.DataAccess.pdb
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/bin/Debug/net9.0/Bulky.Models.pdb
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/bin/Debug/net9.0/Bulky.Utility.pdb
