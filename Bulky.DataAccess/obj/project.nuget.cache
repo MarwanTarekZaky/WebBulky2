@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rSsk++psvPg=",
+  "dgSpecHash": "M8/YLODukBk=",
   "success": true,
   "projectFilePath": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "/Users/marwantarek/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.2/microsoft.entityframeworkcore.tools.9.0.2.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.2/microsoft.extensions.caching.abstractions.9.0.2.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/microsoft.extensions.caching.memory/9.0.2/microsoft.extensions.caching.memory.9.0.2.nupkg.sha512",
+    "/Users/marwantarek/.nuget/packages/microsoft.extensions.configuration/9.0.2/microsoft.extensions.configuration.9.0.2.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.2/microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.2/microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.2/microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
@@ -63,6 +64,7 @@
     "/Users/marwantarek/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.formats.asn1/9.0.2/system.formats.asn1.9.0.2.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.identitymodel.tokens.jwt/6.35.0/system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
+    "/Users/marwantarek/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
@@ -81,6 +83,7 @@
     "/Users/marwantarek/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.text.json/9.0.2/system.text.json.9.0.2.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
+    "/Users/marwantarek/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
   ],

@@ -1,21 +1,25 @@
 using Bulky.DataAccess.Data;
 using Bulky.DataAccess.Migrations;
+using Bulky.DataAccess.Repository.IRepository;
 using Bulky.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Bulky.Controllers;
+namespace Bulky.Areas.Admin.Controllers;
 
+
+[Area("Admin")]
 public class CategoryController : Controller
 {
-    private readonly ApplicationDbContext _context;
-    public CategoryController(ApplicationDbContext context)
+    private readonly IUintOfWork _uintOfWork;
+    
+    public CategoryController(IUintOfWork uintOfWork)
     {
-        _context = context;
+        _uintOfWork = uintOfWork;
     }
     // GET
     public IActionResult Index()
     {
-        List<Category> categories = _context.Categories.ToList();
+        List<Category> categories = _uintOfWork.CategoryRepository.GetAll().ToList();
         return View(categories);
     }
 
@@ -33,8 +37,8 @@ public class CategoryController : Controller
         }
         if (ModelState.IsValid)
         {
-            _context.Categories.Add(category);
-            _context.SaveChanges();
+           _uintOfWork.CategoryRepository.Add(category);
+            _uintOfWork.Save();
             TempData["Success"] = "Category Created";
             return RedirectToAction("Index", "Category");
         }
@@ -48,7 +52,7 @@ public class CategoryController : Controller
         {
             return NotFound();
         }
-        Category? category = _context.Categories.Find(id);
+        Category? category = _uintOfWork.CategoryRepository.Get(i=> i.Id == id);
         if (category == null)
         {
             return NotFound();
@@ -62,8 +66,8 @@ public class CategoryController : Controller
         
         if (ModelState.IsValid)
         {
-            _context.Categories.Update(category);
-            _context.SaveChanges();
+           _uintOfWork.CategoryRepository.Update(category);
+            _uintOfWork.Save();
             TempData["Success"] = "Category Updated";
             return RedirectToAction("Index", "Category");
         }
@@ -77,7 +81,7 @@ public class CategoryController : Controller
         {
             return NotFound();
         }
-        Category? category = _context.Categories.Find(id);
+        Category? category = _uintOfWork.CategoryRepository.Get(i=> i.Id == id);
         if (category == null)
         {
             return NotFound();
@@ -88,19 +92,18 @@ public class CategoryController : Controller
     [HttpPost, ActionName("Delete")]
     public IActionResult DeletePost(int? id)
     {
-        Category? category = _context.Categories.Find(id);
+        Category? category = _uintOfWork.CategoryRepository.Get(i=> i.Id == id);
         if (category == null)
         {
             return NotFound();
         }
         else{
             
-            _context.Categories.Remove(category);
-            _context.SaveChanges();
+            _uintOfWork.CategoryRepository.Delete(category);
+            _uintOfWork.Save();
             TempData["Success"] = "Category Deleted";
             return RedirectToAction("Index", "Category");
         }
     }
-    
     
 }

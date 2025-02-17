@@ -8,8 +8,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.Models", "Bulky.Model
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.Utility", "Bulky.Utility\Bulky.Utility.csproj", "{BB3F1439-4E32-4B5A-A8DF-E9EFE3D5BF57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DL_Service_Lifetime", "DL_Service_Lifetime\DL_Service_Lifetime.csproj", "{08999E14-82B4-4C67-9375-84D647322B32}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,9 +30,5 @@ Global
 		{BB3F1439-4E32-4B5A-A8DF-E9EFE3D5BF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB3F1439-4E32-4B5A-A8DF-E9EFE3D5BF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB3F1439-4E32-4B5A-A8DF-E9EFE3D5BF57}.Release|Any CPU.Build.0 = Release|Any CPU
-		{08999E14-82B4-4C67-9375-84D647322B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08999E14-82B4-4C67-9375-84D647322B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08999E14-82B4-4C67-9375-84D647322B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08999E14-82B4-4C67-9375-84D647322B32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
