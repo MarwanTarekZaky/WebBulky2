@@ -1,0 +1,5 @@
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulk.Utility/obj/Debug/net9.0/Bulk.Utility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulk.Utility/obj/Debug/net9.0/Bulk.Utility.AssemblyInfoInputs.cache
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulk.Utility/obj/Debug/net9.0/Bulk.Utility.AssemblyInfo.cs
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulk.Utility/obj/Debug/net9.0/Bulk.Utility.csproj.CoreCompileInputs.cache
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulk.Utility/obj/Debug/net9.0/Bulk.Utility.sourcelink.json

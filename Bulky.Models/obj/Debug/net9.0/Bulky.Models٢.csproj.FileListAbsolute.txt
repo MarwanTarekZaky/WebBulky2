@@ -1,0 +1,5 @@
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Models/obj/Debug/net9.0/Bulky.Models٢.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Models/obj/Debug/net9.0/Bulky.Models٢.AssemblyInfoInputs.cache
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Models/obj/Debug/net9.0/Bulky.Models٢.AssemblyInfo.cs
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Models/obj/Debug/net9.0/Bulky.Models٢.csproj.CoreCompileInputs.cache
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Models/obj/Debug/net9.0/Bulky.Models٢.sourcelink.json

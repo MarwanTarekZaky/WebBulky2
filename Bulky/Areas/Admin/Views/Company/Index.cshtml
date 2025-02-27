@@ -1,0 +1,40 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<Bulky.Models.Company>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Companies</title>
+</head>
+<body>
+<div class="container">
+    <div class="row pt-4 ps-3">
+        <div class="col-6">
+            <h2 class="text-primary">Company list</h2>
+        </div>
+        <div class="col-6 text-end text-secondary">
+            <a asp-controller="Company" asp-action="Upsert" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Create new Company
+            </a>
+        </div>
+    </div>
+
+</div>
+<table id="tblData" class="table table-bordered table-hover table-primary" style="width:100%">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>state</th>
+        <th>Phone Number</th>
+        <th></th>   
+    </tr>
+    </thead>
+</table>
+</body>
+</html>
+@section Scripts
+{
+    <script src="~/js/company.js"></script>
+}

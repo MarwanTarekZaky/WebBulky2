@@ -13,7 +13,7 @@ public class Category
     [Display(Name = "Name")]
     [Required]
     [MaxLength(30)]
-    public string Name { get; set; }
+    public required string Name { get; set; }
     
     
     [Display(Name = "Display Order")]

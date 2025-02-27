@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Bulky.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Bulky.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bulky.Models.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Bulky.Models/1.0.0": {
+      "type": "project",
+      "path": "../Bulky.Models/Bulky.Models.csproj",
+      "msbuildProject": "../Bulky.Models/Bulky.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Bulky.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/marwantarek/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/Bulky.Utility.csproj",
+      "projectName": "Bulky.Utility",
+      "projectPath": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/Bulky.Utility.csproj",
+      "packagesPath": "/Users/marwantarek/.nuget/packages/",
+      "outputPath": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/marwantarek/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Models/Bulky.Models.csproj": {
+              "projectPath": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Models/Bulky.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

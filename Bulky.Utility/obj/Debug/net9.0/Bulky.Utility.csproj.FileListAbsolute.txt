@@ -1,0 +1,16 @@
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/bin/Debug/net9.0/Bulky.Utility.deps.json
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/bin/Debug/net9.0/Bulky.Utility.dll
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/bin/Debug/net9.0/Bulky.Utility.pdb
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/Bulky.Utility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/Bulky.Utility.AssemblyInfoInputs.cache
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/Bulky.Utility.AssemblyInfo.cs
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/Bulky.Utility.csproj.CoreCompileInputs.cache
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/Bulky.Utility.sourcelink.json
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/Bulky.Utility.dll
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/refint/Bulky.Utility.dll
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/Bulky.Utility.pdb
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/ref/Bulky.Utility.dll
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/Bulky.Utility.csproj.AssemblyReference.cache
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/obj/Debug/net9.0/Bulky.Ut.DF4F08F0.Up2Date
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/bin/Debug/net9.0/Bulky.Models.dll
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Utility/bin/Debug/net9.0/Bulky.Models.pdb

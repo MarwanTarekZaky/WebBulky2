@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Identity">
+        <HintPath>..\..\..\..\..\..\usr\local\share\dotnet\shared\Microsoft.AspNetCore.App\9.0.2\Microsoft.AspNetCore.Identity.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Bulky.Models\Bulky.Models.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -13,6 +13,42 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/product/0d3bbee1-591c-487e-bfcf-38902db28e7d.jpg",
+      "PackagePath": "staticwebassets/images/product/0d3bbee1-591c-487e-bfcf-38902db28e7d.jpg"
+    },
+    {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/product/6c02709b-e9e9-4b8f-bc71-a0f8ab28784a.jpg",
+      "PackagePath": "staticwebassets/images/product/6c02709b-e9e9-4b8f-bc71-a0f8ab28784a.jpg"
+    },
+    {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/product/6ff0aafa-97d5-4c7d-a731-8f562958556d.jpg",
+      "PackagePath": "staticwebassets/images/product/6ff0aafa-97d5-4c7d-a731-8f562958556d.jpg"
+    },
+    {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/product/bca0f7a1-9fc4-4e83-88cd-4c9ca4d3a37b.jpg",
+      "PackagePath": "staticwebassets/images/product/bca0f7a1-9fc4-4e83-88cd-4c9ca4d3a37b.jpg"
+    },
+    {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/product/d66d3d34-bd55-4691-8874-e04a2debf7e6.jpg",
+      "PackagePath": "staticwebassets/images/product/d66d3d34-bd55-4691-8874-e04a2debf7e6.jpg"
+    },
+    {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/product/e6c3ed3b-61c2-4da0-9e8e-3a8041c836cd.jpg",
+      "PackagePath": "staticwebassets/images/product/e6c3ed3b-61c2-4da0-9e8e-3a8041c836cd.jpg"
+    },
+    {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/product/f2982bec-f640-4941-a1b5-592f07d7dcd1.jpg",
+      "PackagePath": "staticwebassets/images/product/f2982bec-f640-4941-a1b5-592f07d7dcd1.jpg"
+    },
+    {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/company.js",
+      "PackagePath": "staticwebassets/js/company.js"
+    },
+    {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/product.js",
+      "PackagePath": "staticwebassets/js/product.js"
+    },
+    {
       "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

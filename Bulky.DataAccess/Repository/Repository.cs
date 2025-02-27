@@ -1,6 +1,7 @@
 using System.Linq.Expressions;
 using Bulky.DataAccess.Data;
 using Bulky.DataAccess.Repository.IRepository;
+using Bulky.DataAccess.Repository;
 using Bulky.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,19 +14,48 @@ public class Repository<T>: IRepository<T> where T: class
     public Repository(ApplicationDbContext db)
     {
         _db = db;
-        _dbSet = _db.Set<T>(); 
-        
+        _dbSet = _db.Set<T>();
+        _db.Products.Include(e => e.Category).Include(e => e.CategoryId);
     }
-    public IEnumerable<T> GetAll()
+    public IEnumerable<T> GetAll(Expression<Func<T, bool>>? predicate = null, string? includeproperties = null)
     {
         IQueryable<T> query = _dbSet;
+        if (predicate != null)
+        {
+            query = query.Where(predicate);
+        }
+     
+        if (!string.IsNullOrWhiteSpace(includeproperties))
+        {
+            foreach (var property in includeproperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(property);
+            }
+        }
         return query.ToList();
     }
 
-    public T Get(Expression<Func<T, bool>> filter)
+    public T Get(Expression<Func<T, bool>> filter, string? includeproperties = null, bool tracked = false)
     {
-        IQueryable<T> query = _dbSet;
+        
+        IQueryable<T> query;
+        if (tracked)
+        {
+            query = _dbSet;
+        }
+        else
+        {
+            query = _dbSet.AsNoTracking();
+        }
         query = query.Where(filter);
+        if (!string.IsNullOrWhiteSpace(includeproperties))
+        {
+            foreach (var property in includeproperties
+                         .Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(property);
+            }
+        }
         return query.FirstOrDefault();
     }
 

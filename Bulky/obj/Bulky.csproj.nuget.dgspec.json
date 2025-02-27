@@ -51,6 +51,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -74,6 +82,10 @@
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "System.IO": {
               "target": "Package",
@@ -151,6 +163,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -180,7 +195,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Models/Bulky.Models.csproj": {
+                "projectPath": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky.Models/Bulky.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -265,6 +284,18 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.2, )"

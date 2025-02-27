@@ -1,0 +1,40 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<Bulky.Models.Product>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Products</title>
+</head>
+<body>
+<div class="container">
+    <div class="row pt-4 ps-3">
+        <div class="col-6">
+            <h2 class="text-primary">Product list</h2>
+        </div>
+        <div class="col-6 text-end text-secondary">
+            <a asp-controller="Product" asp-action="Upsert" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Create new Product
+            </a>
+        </div>
+    </div>
+
+</div>
+<table id="tblData" class="table table-bordered table-hover table-primary" style="width:100%">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>ISBN</th>
+        <th>Price</th>
+        <th>Author</th>
+        <th>Category</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+</table>
+</body>
+</html>
+@section Scripts
+{
+    <script src="~/js/product.js"></script>
+}
