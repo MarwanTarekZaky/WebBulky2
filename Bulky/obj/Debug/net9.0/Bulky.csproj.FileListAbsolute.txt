@@ -705,3 +705,6 @@
 /Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/v0zgfp0y55-87fc7y1x7t.gz
 /Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/yfc7ypekbg-mlv21k5csn.gz
 /Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/dblcj4ew9j-87d1smm1t4.gz
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/bin/Debug/net9.0/Stripe.net.dll
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/u0yn3ym74n-ewyjlw8md9.gz
+/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/kvur0i7m5w-6isqr9jyl4.gz

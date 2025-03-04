@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hw0mra9IgBw=",
+  "dgSpecHash": "p4AWrDAZPfI=",
   "success": true,
   "projectFilePath": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/Bulky.csproj",
   "expectedPackageFiles": [
@@ -136,6 +136,7 @@
     "/Users/marwantarek/.nuget/packages/nuget.projectmodel/6.11.0/nuget.projectmodel.6.11.0.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/nuget.protocol/6.11.0/nuget.protocol.6.11.0.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/nuget.versioning/6.11.0/nuget.versioning.6.11.0.nupkg.sha512",
+    "/Users/marwantarek/.nuget/packages/stripe.net/47.4.0/stripe.net.47.4.0.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.clientmodel/1.0.0/system.clientmodel.1.0.0.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
     "/Users/marwantarek/.nuget/packages/system.collections.immutable/8.0.0/system.collections.immutable.8.0.0.nupkg.sha512",

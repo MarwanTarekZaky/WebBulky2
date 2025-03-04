@@ -10,6 +10,8 @@ public class UintOfWork: IUintOfWork
     public ICompanyRepository CompanyRepository { get; private set; }
     public IShoppingCartRepository ShoppingCartRepository { get; private set; }
     public IApplicationUserRepository ApplicationUserRepository { get; private set; }
+    public IOrderHeaderRepository OrderHeader { get; private set; }
+    public IOrderDetailRepository OrderDetail { get; private set; }
     private ApplicationDbContext _db;
     
     public UintOfWork(ApplicationDbContext db) 
@@ -20,6 +22,9 @@ public class UintOfWork: IUintOfWork
         CompanyRepository = new CompanyRepository(_db);
         ShoppingCartRepository = new ShoppingCartRepository(_db);
         ApplicationUserRepository = new ApplicationUserRepository(_db);
+        OrderHeader = new OrderHeaderRepository(_db);
+        OrderDetail = new OrderDetailRepository(_db);   
+        
     }
     public void Save()
     {

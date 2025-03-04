@@ -14,16 +14,16 @@ public class Product
     public required string Author { get; set; }
     [Range(1,1000)]
     [Display(Name = "Price for Unit")]
-    public required decimal ListPrice { get; set; }
+    public required double ListPrice { get; set; }
     [Range(1,1000)]
     [Display(Name = "Price for 1-50 Unit")]
-    public required decimal Price { get; set; }
+    public required double Price { get; set; }
     [Range(1,1000)]
     [Display(Name = "Price per 50+ Unit")]
-    public required decimal Price50 { get; set; }
+    public required double Price50 { get; set; }
     [Range(1,1000)]
     [Display(Name = "Price per 100+ Unit")]
-    public required decimal Price100 { get; set; }
+    public required double Price100 { get; set; }
     [ValidateNever]
     public required int CategoryId { get; set; }
     [ForeignKey("CategoryId")]

@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/book.png",
+      "PackagePath": "staticwebassets/images/book.png"
+    },
+    {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/lawn_leaf.jpg",
+      "PackagePath": "staticwebassets/images/lawn_leaf.jpg"
+    },
+    {
       "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/product/0d3bbee1-591c-487e-bfcf-38902db28e7d.jpg",
       "PackagePath": "staticwebassets/images/product/0d3bbee1-591c-487e-bfcf-38902db28e7d.jpg"
     },
@@ -45,12 +53,20 @@
       "PackagePath": "staticwebassets/js/company.js"
     },
     {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/order.js",
+      "PackagePath": "staticwebassets/js/order.js"
+    },
+    {
       "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/product.js",
       "PackagePath": "staticwebassets/js/product.js"
     },
     {
       "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/user.js",
+      "PackagePath": "staticwebassets/js/user.js"
     },
     {
       "Id": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/lib/bootstrap/LICENSE",

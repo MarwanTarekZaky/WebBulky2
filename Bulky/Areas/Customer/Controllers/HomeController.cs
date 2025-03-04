@@ -5,6 +5,8 @@ using Bulky.DataAccess.Data;
 using Bulky.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using Bulky.Utility;
+
 namespace Bulky.Areas.Customer.Controllers;
 
 [Area("Customer")]
@@ -20,6 +22,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+      
+        
         IEnumerable<Product> products = _uintOfWork.ProductRepository.GetAll(includeproperties: "Category");
         return View(products);
     }
@@ -49,10 +53,14 @@ public class HomeController : Controller
         {
             CardToAdd.Count += shoppingCart.Count;
             _uintOfWork.ShoppingCartRepository.Update(CardToAdd);
+            _uintOfWork.Save();
         }
         else
         {
             _uintOfWork.ShoppingCartRepository.Add(shoppingCart);
+            _uintOfWork.Save();
+            HttpContext.Session.SetInt32(SD.SessionCart,
+                _uintOfWork.ShoppingCartRepository.GetAll(u => u.ApplicationUserId== shoppingCart.ApplicationUserId ).Count());
         }
        TempData["Success"] = "Cart Updated Successfully";
         _uintOfWork.Save();

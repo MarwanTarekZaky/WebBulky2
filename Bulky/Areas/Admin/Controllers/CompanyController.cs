@@ -13,7 +13,7 @@ namespace Bulky.Areas.Admin.Controllers;
 
 
 [Area("Admin")]
-// [Authorize(Roles = SD.RoleCompany)]
+[Authorize(Roles = SD.RoleCompany)]
 public class CompanyController : Controller
 {
     private readonly IUintOfWork _uintOfWork;

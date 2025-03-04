@@ -169,7 +169,7 @@ namespace Bulky.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
-                user.UserName = Input.Name;
+                user.Name = Input.Name;
                 user.PhoneNumber = Input.PhoneNumber;
                 user.StreetAddress = Input.StreetAddress;
                 user.City = Input.City;
@@ -213,7 +213,16 @@ namespace Bulky.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
+                        if (User.IsInRole(SD.RoleAdmin))
+                        {
+                            //Do not sign in with the new Registered user acc
+                            TempData["success"] = "New account has been created.";
+                        }
+                        else
+                        {
+                            await _signInManager.SignInAsync(user, isPersistent: false);
+                        }
+                        
                         return LocalRedirect(returnUrl);
                     }
 

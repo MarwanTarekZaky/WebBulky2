@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JSVLCSHR90R0VSRfHiXFf+FanZdkp38NQH8iYl1+9b8=",
+  "Hash": "OyfHew73DgRZFzUvqVIk9bJfqUzhGRIqf00fH5cRTHs=",
   "Source": "Bulky",
   "BasePath": "_content/Bulky",
   "Mode": "Default",
@@ -2810,6 +2810,27 @@
       "OriginalItemSpec": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
+      "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/kvur0i7m5w-6isqr9jyl4.gz",
+      "SourceId": "Bulky",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Bulky",
+      "RelativePath": "js/user#[.{fingerprint=6isqr9jyl4}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/user.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y2le3jubll",
+      "Integrity": "xu4EdpT9/a2s/PEW6TqfFjQMpa3sBXBHNhI8iTtKLmc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/user.js"
+    },
+    {
       "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/kxj6qvxzy6-46ein0sx1k.gz",
       "SourceId": "Bulky",
       "SourceType": "Discovered",
@@ -3629,6 +3650,27 @@
       "OriginalItemSpec": "/Users/marwantarek/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.2/staticwebassets/V5/lib/jquery/dist/jquery.js"
     },
     {
+      "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/u0yn3ym74n-ewyjlw8md9.gz",
+      "SourceId": "Bulky",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Bulky",
+      "RelativePath": "js/order#[.{fingerprint=ewyjlw8md9}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/order.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8wfaa8m93j",
+      "Integrity": "CIeIaNhPHMyRJpEhG2aMfjzcJ1UDgx4o0/eCsiRXgfc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/order.js"
+    },
+    {
       "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/u8428c4e9i-ee0r1s7dh0.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -4112,6 +4154,48 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/book.png",
+      "SourceId": "Bulky",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/",
+      "BasePath": "_content/Bulky",
+      "RelativePath": "images/book#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ta44cbam0i",
+      "Integrity": "O1mc9TeNoSLcfE9Y8rAt34UeznMLc9ARMpPknARQlxM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/book.png"
+    },
+    {
+      "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/lawn_leaf.jpg",
+      "SourceId": "Bulky",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/",
+      "BasePath": "_content/Bulky",
+      "RelativePath": "images/lawn_leaf#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r1girycgsq",
+      "Integrity": "v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/lawn_leaf.jpg"
+    },
+    {
       "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/product/0d3bbee1-591c-487e-bfcf-38902db28e7d.jpg",
       "SourceId": "Bulky",
       "SourceType": "Discovered",
@@ -4280,6 +4364,27 @@
       "OriginalItemSpec": "wwwroot/js/company.js"
     },
     {
+      "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/order.js",
+      "SourceId": "Bulky",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/",
+      "BasePath": "_content/Bulky",
+      "RelativePath": "js/order#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ewyjlw8md9",
+      "Integrity": "khNQnyaBj3z9ZiwVxk9aOnaCtM1QsqxivwovLjAB3Vs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/order.js"
+    },
+    {
       "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/product.js",
       "SourceId": "Bulky",
       "SourceType": "Discovered",
@@ -4320,6 +4425,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/user.js",
+      "SourceId": "Bulky",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/",
+      "BasePath": "_content/Bulky",
+      "RelativePath": "js/user#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6isqr9jyl4",
+      "Integrity": "Mn5RX6hHH2WCe7Hg7onDgLKLsifV9kwH3Wc/N4dZY/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/user.js"
     },
     {
       "Identity": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
@@ -15381,6 +15507,170 @@
       ]
     },
     {
+      "Route": "images/book.png",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/book.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O1mc9TeNoSLcfE9Y8rAt34UeznMLc9ARMpPknARQlxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Apr 2023 08:29:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O1mc9TeNoSLcfE9Y8rAt34UeznMLc9ARMpPknARQlxM="
+        }
+      ]
+    },
+    {
+      "Route": "images/book.ta44cbam0i.png",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/book.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O1mc9TeNoSLcfE9Y8rAt34UeznMLc9ARMpPknARQlxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Apr 2023 08:29:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ta44cbam0i"
+        },
+        {
+          "Name": "label",
+          "Value": "images/book.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O1mc9TeNoSLcfE9Y8rAt34UeznMLc9ARMpPknARQlxM="
+        }
+      ]
+    },
+    {
+      "Route": "images/lawn_leaf.jpg",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/lawn_leaf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "962896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Apr 2023 08:29:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg="
+        }
+      ]
+    },
+    {
+      "Route": "images/lawn_leaf.r1girycgsq.jpg",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/lawn_leaf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "962896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Apr 2023 08:29:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1girycgsq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/lawn_leaf.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg="
+        }
+      ]
+    },
+    {
       "Route": "images/product/0d3bbee1-591c-487e-bfcf-38902db28e7d.cafjpk87dy.jpg",
       "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/images/product/0d3bbee1-591c-487e-bfcf-38902db28e7d.jpg",
       "Selectors": [],
@@ -16253,6 +16543,304 @@
       ]
     },
     {
+      "Route": "js/order.ewyjlw8md9.js",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/u0yn3ym74n-ewyjlw8md9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001886792453"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "529"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CIeIaNhPHMyRJpEhG2aMfjzcJ1UDgx4o0/eCsiRXgfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 22:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"khNQnyaBj3z9ZiwVxk9aOnaCtM1QsqxivwovLjAB3Vs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewyjlw8md9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/order.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-khNQnyaBj3z9ZiwVxk9aOnaCtM1QsqxivwovLjAB3Vs="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.ewyjlw8md9.js",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/order.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"khNQnyaBj3z9ZiwVxk9aOnaCtM1QsqxivwovLjAB3Vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 22:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewyjlw8md9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/order.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-khNQnyaBj3z9ZiwVxk9aOnaCtM1QsqxivwovLjAB3Vs="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.ewyjlw8md9.js.gz",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/u0yn3ym74n-ewyjlw8md9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CIeIaNhPHMyRJpEhG2aMfjzcJ1UDgx4o0/eCsiRXgfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 22:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewyjlw8md9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/order.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CIeIaNhPHMyRJpEhG2aMfjzcJ1UDgx4o0/eCsiRXgfc="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.js",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/u0yn3ym74n-ewyjlw8md9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001886792453"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "529"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CIeIaNhPHMyRJpEhG2aMfjzcJ1UDgx4o0/eCsiRXgfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 22:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"khNQnyaBj3z9ZiwVxk9aOnaCtM1QsqxivwovLjAB3Vs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-khNQnyaBj3z9ZiwVxk9aOnaCtM1QsqxivwovLjAB3Vs="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.js",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/order.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"khNQnyaBj3z9ZiwVxk9aOnaCtM1QsqxivwovLjAB3Vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 22:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-khNQnyaBj3z9ZiwVxk9aOnaCtM1QsqxivwovLjAB3Vs="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.js.gz",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/u0yn3ym74n-ewyjlw8md9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CIeIaNhPHMyRJpEhG2aMfjzcJ1UDgx4o0/eCsiRXgfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 22:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CIeIaNhPHMyRJpEhG2aMfjzcJ1UDgx4o0/eCsiRXgfc="
+        }
+      ]
+    },
+    {
       "Route": "js/product.f3q302j4cy.js",
       "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/psv7tqfqyp-f3q302j4cy.gz",
       "Selectors": [
@@ -16882,6 +17470,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-AXztSpoe10GTxIpe7DqcvjAoPi8BndznaaLKrv6dOdI="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.6isqr9jyl4.js",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/kvur0i7m5w-6isqr9jyl4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001428571429"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "699"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xu4EdpT9/a2s/PEW6TqfFjQMpa3sBXBHNhI8iTtKLmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 12:29:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Mn5RX6hHH2WCe7Hg7onDgLKLsifV9kwH3Wc/N4dZY/s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6isqr9jyl4"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mn5RX6hHH2WCe7Hg7onDgLKLsifV9kwH3Wc/N4dZY/s="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.6isqr9jyl4.js",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/user.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mn5RX6hHH2WCe7Hg7onDgLKLsifV9kwH3Wc/N4dZY/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 12:29:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6isqr9jyl4"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mn5RX6hHH2WCe7Hg7onDgLKLsifV9kwH3Wc/N4dZY/s="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.6isqr9jyl4.js.gz",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/kvur0i7m5w-6isqr9jyl4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "699"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xu4EdpT9/a2s/PEW6TqfFjQMpa3sBXBHNhI8iTtKLmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 12:29:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6isqr9jyl4"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xu4EdpT9/a2s/PEW6TqfFjQMpa3sBXBHNhI8iTtKLmc="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.js",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/kvur0i7m5w-6isqr9jyl4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001428571429"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "699"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xu4EdpT9/a2s/PEW6TqfFjQMpa3sBXBHNhI8iTtKLmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 12:29:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Mn5RX6hHH2WCe7Hg7onDgLKLsifV9kwH3Wc/N4dZY/s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mn5RX6hHH2WCe7Hg7onDgLKLsifV9kwH3Wc/N4dZY/s="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.js",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/wwwroot/js/user.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mn5RX6hHH2WCe7Hg7onDgLKLsifV9kwH3Wc/N4dZY/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 12:29:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mn5RX6hHH2WCe7Hg7onDgLKLsifV9kwH3Wc/N4dZY/s="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.js.gz",
+      "AssetFile": "/Users/marwantarek/development/C# projects trying/WebBulky/Bulky/obj/Debug/net9.0/compressed/kvur0i7m5w-6isqr9jyl4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "699"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xu4EdpT9/a2s/PEW6TqfFjQMpa3sBXBHNhI8iTtKLmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 12:29:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xu4EdpT9/a2s/PEW6TqfFjQMpa3sBXBHNhI8iTtKLmc="
         }
       ]
     },

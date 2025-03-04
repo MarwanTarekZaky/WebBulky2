@@ -1,11 +1,13 @@
 using Bulky.Utility;
 using Bulky.DataAccess.Data;
+using Bulky.DataAccess.DbInitializer;
 using Bulky.DataAccess.Repository;
 using Bulky.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Stripe;
 
 //Creating the WebAppBuilder 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,11 +26,21 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LogoutPath = "/Identity/Account/logout";
     options.AccessDeniedPath = "/Identity/Account/AccessDenied";
 }).AddAuthentication().AddCookie();
+
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(60);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IUintOfWork, UintOfWork>();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddRazorPages();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+builder.Services.Configure<StripeSetting>(builder.Configuration.GetSection("Stripe"));
 
 //Building the webapp
 var app = builder.Build();
@@ -48,6 +60,9 @@ app.UseRouting();
 app.UseAuthentication();  // Enables authentication
 app.UseAuthorization();   // Enables authorization
 
+app.UseSession();
+
+SeedDataBase();
 app.MapStaticAssets();
 
 app.MapControllerRoute(
@@ -57,4 +72,15 @@ app.MapControllerRoute(
 
 app.MapRazorPages(); 
 
+StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+
 app.Run();
+
+void SeedDataBase()
+{
+    using (var scope = app.Services.CreateScope()) {
+        var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+        dbInitializer.Initialize();
+    }
+}
+

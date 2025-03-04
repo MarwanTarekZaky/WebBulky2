@@ -17,4 +17,7 @@ public class ApplicationUser: IdentityUser
     [ForeignKey("CompanyId")]
     [ValidateNever]
     public Company? Company { get; set; }
+    
+    [NotMapped]
+    public string? Role {get; set;}
 }
